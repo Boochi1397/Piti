@@ -140,15 +140,15 @@
       "tag": "BERLIN",
       "detour": "TEHRAN",
       "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:8c7e:84d3:cc39:2b67:d765/128"
+        "172.16.0.2/32",
+        "2606:4700:110:8d93:cb35:58b7:a82d:3b29/128"
       ],
-      "private_key": "YPhnBcnEhb2jghr943+/sVz76VwQUDCQgPWeX000dFc=",
-      "server": "[2606:4700:d0::1855:9308:6a17:8d03]",
-      "server_port": 955,
+      "private_key": "aFas3VyGMARSB83IK5uLYmJHpE3XSLfcrc3FjOZwlXU=",
+      "server": "162.159.192.36",
+      "server_port": 908,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [192,186,142],
-      "mtu": 1180
+      "reserved": qOz4,
+      "mtu": 1280
     },
     {
       "type": "dns",
