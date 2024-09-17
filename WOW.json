@@ -120,15 +120,15 @@
       "type": "wireguard",
       "tag": "Iran 🇮🇷",
       "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:89a8:fd64:26c3:e66c:aeb5/128"
+        "172.16.0.2/32",
+        "2606:4700:110:8d93:cb35:58b7:a82d:3b29/128"
       ],
-      "private_key": "QALMq3+ZfwxtIxXFVy3Drs0QeIbTnSoWOYxJM9ajemk=",
-      "server": "162-159-192-6.sslip.io",
-      "server_port": 500,
+      "private_key": "aFas3VyGMARSB83IK5uLYmJHpE3XSLfcrc3FjOZwlXU=",
+      "server": "162.159.192.36",
+      "server_port": 908,
       
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [55,160,170],
+      "reserved": [156,236,248],
       "mtu": 1306,
       "fake_packets": "25-30",
       "fake_packets_size": "10-30",
@@ -140,14 +140,13 @@
       "tag": "Netherland 🇳🇱",
       "detour": "Iran 🇮🇷",
       "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8d93:cb35:58b7:a82d:3b29/128"
+        "10.2.0.2/32",
+        ""
       ],
-      "private_key": "aFas3VyGMARSB83IK5uLYmJHpE3XSLfcrc3FjOZwlXU=",
-      "server": "162.159.192.36",
-      "server_port": 908,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": qOz4,
+      "private_key": "YG1U3SIu9KJAFzfCS9trhao9Sdx5Flf8iiAzx9X5cHY=",
+      "server": "185.177.126.14",
+      "server_port": 51820,
+      "peer_public_key": "wweP0YfxgQTCes+5UoXfhLbWXvHXGnwQkozFzvBA/i4=",
       "mtu": 1280
     },
     {
