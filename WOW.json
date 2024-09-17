@@ -100,8 +100,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "TEHRAN",
-        "BERLIN"
+        "Iran 🇮🇷",
+        "Netherland 🇳🇱"
       ],
       "default": "auto"
     },
@@ -109,8 +109,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "TEHRAN",
-        "BERLIN"
+        "Iran 🇮🇷",
+        "Netherland 🇳🇱"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -118,7 +118,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "TEHRAN",
+      "tag": "Iran 🇮🇷",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:89a8:fd64:26c3:e66c:aeb5/128"
@@ -137,8 +137,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "BERLIN",
-      "detour": "TEHRAN",
+      "tag": "Netherland 🇳🇱",
+      "detour": "Iran 🇮🇷",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8d93:cb35:58b7:a82d:3b29/128"
